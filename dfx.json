@@ -1,0 +1,17 @@
+{
+    "canisters": {
+        "storage": {
+            "main": "src/main.mo",
+            "type": "motoko",
+            "args": "--incremental-gc"
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": "vessel sources"
+        }
+    },
+    "output_env_file": ".env",
+    "version": 1
+}
